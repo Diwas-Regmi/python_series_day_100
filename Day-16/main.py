@@ -1,0 +1,23 @@
+# # import another_module
+# # print(another_module.another_variable)
+# import turtle
+# timmy = turtle.Turtle()
+# timmy.color("DarkOrchid")
+# timmy.shape("turtle")
+# timmy.forward(100)
+# timmy.left(90)
+# timmy.forward(100)
+# timmy.left(90)
+# timmy.forward(100)
+# timmy.left(90)
+# timmy.forward(100)
+# # turtle.home()
+# my_screen = turtle.Screen()
+# print(my_screen.canvheight)
+# my_screen.exitonclick()
+import prettytable
+table = prettytable.PrettyTable()
+table.add_column("Pokemon Name",["Pikachu", "Squirtle", "Charmander"])
+table.add_column("Type",["Electric", "Water", ""])
+table.add_row()
+print(table)
