@@ -4,7 +4,7 @@ import smtplib
 import datetime as dt
 
 email_id = "diwas.regmi1110@gmail.com"
-password = "uyql mdsr pgwz vjml"
+password = "uyql mdsr ###z vjml"
 
 ##################### Extra Hard Starting Project ######################
 with open("./letter_templates/letter_1.txt","r") as file:
