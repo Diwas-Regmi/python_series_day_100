@@ -16,7 +16,7 @@ with open("./letter_templates/letter_3.txt","r") as file:
 
 # letter_list = [letter_3,letter_2,letter_1]
 rand_lett = random.choice((letter_1,letter_2,letter_3))
-print(rand_lett)
+
 
 
 
