@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49dd05c9-6af2-456d-b278-f76613687c5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/Birthday+Wisher+(Day+32)+start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/Birthday Wisher (Day 32) start/already_sent_quote_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/Birthday Wisher (Day 32) start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/Birthday Wisher (Day 32) start/motivational_quotes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/Birthday Wisher (Day 32) start/quotes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/birthday-wisher-extrahard-start/birthdays.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/birthday-wisher-extrahard-start/letter_templates/letter_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/birthday-wisher-extrahard-start/letter_templates/letter_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/birthday-wisher-extrahard-start/letter_templates/letter_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birthday+Wisher+(Day+32)+start/birthday-wisher-extrahard-start/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IREO2D1GzyMzKHhrKzhEZYBUHe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Diwas/Desktop/PythonProject",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49dd05c9-6af2-456d-b278-f76613687c5b" name="Changes" comment="" />
+      <created>1787718945400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787718945400</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

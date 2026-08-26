@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/COFFEE-MACHINE/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-16/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-16/oop-coffee-machine-start/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-17/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-18/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-19/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-20/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-21/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-22/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-23/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-23/turtle-crossing-start/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-24/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-25/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-26/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-27/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-28/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-29/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-30/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-31/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-32(Birthday+Wisher+(Day+32)+start)/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/quiz-game-start/.venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>
