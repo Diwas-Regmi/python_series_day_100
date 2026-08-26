@@ -1,7 +1,7 @@
 import smtplib
 import time
 my_email = "diwas.regmi1110@gmail.com"
-password="ifkj ajnf rcas ttlf"
+password="ifkj ajnf rcas ####"
 
 # connection = smtplib.SMTP("smtp.gmail.com")
 # connection.starttls()
@@ -66,7 +66,7 @@ password="ifkj ajnf rcas ttlf"
 #         """)
 # Doing the same with yahoo on myself
 # my_email_2 = "sawid.imger2019@gmail.com"
-# password_2="S@wid2026"
+# password_2="###########"
 # with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
 #     connection.starttls() # to make secure
 #     connection.sendmail(from_addr=my_email_2, to_addrs="diwas.regmi1110@gmail.com", msg="Subject: Sending from Yahoo Just to know it works from Both sides\n\n\n"

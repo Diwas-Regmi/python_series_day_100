@@ -4,7 +4,7 @@ import smtplib
 import datetime as dt
 
 email_id = "diwas.regmi1110@gmail.com"
-password = "uyql mdsr pgwz vjml"
+password = "uyql mdsr ###z vjml"
 
 ##################### Extra Hard Starting Project ######################
 with open("./letter_templates/letter_1.txt","r") as file:
@@ -16,7 +16,7 @@ with open("./letter_templates/letter_3.txt","r") as file:
 
 # letter_list = [letter_3,letter_2,letter_1]
 rand_lett = random.choice((letter_1,letter_2,letter_3))
-print(rand_lett)
+
 
 
 
