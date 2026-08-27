@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a4f4b63-d95f-466a-a02c-fd1c1ef20e99" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.2754983158594033" />
+      <entry key="MS500" value="1.9117326709430853" />
+      <entry key="S2" value="3.106382274223554" />
+      <entry key="S5" value="4.755299840138401" />
+      <entry key="S10" value="7.097785957480531" />
+      <entry key="S30" value="12.423824417970211" />
+      <entry key="S60" value="15.506852983508333" />
+      <entry key="M2" value="18.70400876779591" />
+      <entry key="M5" value="31.073798020221865" />
+      <entry key="M10" value="56.9631123108018" />
+      <entry key="M15" value="78.79369087734969" />
+      <entry key="M30" value="123.0111670738724" />
+      <entry key="H1" value="175.72097913832073" />
+      <entry key="H2" value="238.70856294441484" />
+      <entry key="H4" value="303.28436086153044" />
+      <entry key="D1" value="400.4294370027789" />
+      <entry key="W1" value="423.84271191576863" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="5.546085962717806E-63" />
+      <entry key="MS500" value="3.5383217280260304E-13" />
+      <entry key="S2" value="7.712573748546778E-4" />
+      <entry key="S5" value="0.056869542166005684" />
+      <entry key="S10" value="0.2384733573504715" />
+      <entry key="S30" value="0.6201358641148289" />
+      <entry key="S60" value="0.7941716877932767" />
+      <entry key="M2" value="1.0866496315699916" />
+      <entry key="M5" value="3.696452675460632" />
+      <entry key="M10" value="10.625132647909584" />
+      <entry key="M15" value="16.918352464792036" />
+      <entry key="M30" value="30.058969098362276" />
+      <entry key="H1" value="46.102710344913646" />
+      <entry key="H2" value="65.76152308202637" />
+      <entry key="H4" value="86.03146614999402" />
+      <entry key="D1" value="116.41064569394176" />
+      <entry key="W1" value="123.7057150256134" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.33918733365193804" />
+      <entry key="MS500" value="1.030993765978481" />
+      <entry key="S2" value="2.4682492932180846" />
+      <entry key="S5" value="4.343183347497847" />
+      <entry key="S10" value="6.9399649509692285" />
+      <entry key="S30" value="12.768558024091483" />
+      <entry key="S60" value="16.11912709473581" />
+      <entry key="M2" value="19.679531168381022" />
+      <entry key="M5" value="34.70113613681759" />
+      <entry key="M10" value="67.52608496726913" />
+      <entry key="M15" value="95.65389951511077" />
+      <entry key="M30" value="153.02393656024" />
+      <entry key="H1" value="221.79091030260216" />
+      <entry key="H2" value="304.448135699894" />
+      <entry key="H4" value="389.3019846430443" />
+      <entry key="D1" value="516.8370412302223" />
+      <entry key="W1" value="547.547966797441" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IRNQvULzUSYVlBuojJCSUwynRh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Diwas/Desktop/PythonProject/Day-33",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day-33" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kanye-quotes-start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kanye-quotes-start/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day-33" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/issoverhead-start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/issoverhead-start/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Day-33" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a4f4b63-d95f-466a-a02c-fd1c1ef20e99" name="Changes" comment="" />
+      <created>1787723408713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787723408713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
