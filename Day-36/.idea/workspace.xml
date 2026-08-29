@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95b4e3a5-39e4-470d-8119-11b41f09f4a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start/twilio_whatsapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day-34/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day-34/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000059716967" />
+      <entry key="S5" value="1.0007758702527274" />
+      <entry key="S10" value="1.0406202213520046" />
+      <entry key="S30" value="1.8206061265481601" />
+      <entry key="S60" value="3.353352234951399" />
+      <entry key="M2" value="6.444078149418382" />
+      <entry key="M5" value="15.009764249708866" />
+      <entry key="M10" value="28.16233119897282" />
+      <entry key="M15" value="40.923116091958924" />
+      <entry key="M30" value="76.76509292370415" />
+      <entry key="H1" value="136.46076892567234" />
+      <entry key="H2" value="214.66293123159156" />
+      <entry key="H4" value="287.96360441495347" />
+      <entry key="D1" value="383.4406730033692" />
+      <entry key="W1" value="404.3570942176096" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.4662824420170753E-190" />
+      <entry key="S2" value="3.962878002804439E-48" />
+      <entry key="S5" value="1.0945443958806457E-19" />
+      <entry key="S10" value="3.3481417911527617E-10" />
+      <entry key="S30" value="0.001080136898068735" />
+      <entry key="S60" value="0.06930295937639432" />
+      <entry key="M2" value="0.6369186956269147" />
+      <entry key="M5" value="2.8805950020629303" />
+      <entry key="M10" value="5.614891051317552" />
+      <entry key="M15" value="7.951839109896384" />
+      <entry key="M30" value="15.071660311417153" />
+      <entry key="H1" value="27.740739520782405" />
+      <entry key="H2" value="44.52372783087358" />
+      <entry key="H4" value="60.26067440660264" />
+      <entry key="D1" value="80.73734641774178" />
+      <entry key="W1" value="85.21950362189281" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.1339716828170366" />
+      <entry key="MS500" value="0.668963777393056" />
+      <entry key="S2" value="0.9043793835157414" />
+      <entry key="S5" value="0.961369782360473" />
+      <entry key="S10" value="1.020617871144608" />
+      <entry key="S30" value="1.809009993214356" />
+      <entry key="S60" value="3.405884341229553" />
+      <entry key="M2" value="7.059945259043238" />
+      <entry key="M5" value="17.86748784766904" />
+      <entry key="M10" value="33.755387549467" />
+      <entry key="M15" value="48.8536121463763" />
+      <entry key="M30" value="91.81608718323707" />
+      <entry key="H1" value="164.1829514713483" />
+      <entry key="H2" value="259.1721904106615" />
+      <entry key="H4" value="348.2146635211608" />
+      <entry key="D1" value="464.175906130982" />
+      <entry key="W1" value="489.5762800416313" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IaboZmOYJfhtgfpmMjCTMiP0KX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.twilio.executor": "Run",
+    "Python.twilio_whatsapp (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Diwas/Desktop/PythonProject/Day-36",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.twilio_whatsapp (1)">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day-36" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twilio_whatsapp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day-36" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start/twilio_whatsapp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twilio_whatsapp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day-36" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock-news-extrahard-start/stock-news-extrahard-start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\Diwas\Desktop\PythonProject\Day-36\stock-news-extrahard-start\stock-news-extrahard-start\twilio_whatsapp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.twilio_whatsapp (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.twilio_whatsapp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95b4e3a5-39e4-470d-8119-11b41f09f4a6" name="Changes" comment="" />
+      <created>1788005801356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788005801356</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
