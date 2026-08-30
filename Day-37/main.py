@@ -1,9 +1,12 @@
 import requests
 import datetime
+import datetime as dt
+import os
+from dotenv import load_dotenv
 
-USERNAME = "diwas"
-TOKEN = "hjkh453ghtio09nvfd4df21g"
-GRAPH_ID = "graph1"
+USERNAME = os.environ["USERNAME"]
+TOKEN = os.environ["TOKEN"]
+GRAPH_ID = os.environ["GRAPH_ID"]
 
 #Create pixela username
 pixela_endpoint = "https://pixe.la/v1/users"
