@@ -6,6 +6,8 @@ import datetime as dt
 import os
 from twilio.rest import Client
 from dotenv import load_dotenv
+
+
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 load_dotenv()
@@ -37,11 +39,14 @@ parameter_stock = {
 response = requests.get(url= stock_url, params = parameter_stock)
 response.raise_for_status()
 data = response.json()
+print(data)
 yesterday_stock = data["Time Series (Daily)"]["2026-08-28"]
-yesterday_opening_stock = float(yesterday_stock["1. open"])
 yesterday_closing_stock = float(yesterday_stock["4. close"])
 day_before_yesterday_closing_stock = data["Time Series (Daily)"]["2026-08-27"]["4. close"]
 difference =float(yesterday_closing_stock)- float(day_before_yesterday_closing_stock)
+print(yesterday_closing_stock)
+print(day_before_yesterday_closing_stock)
+print(difference)
 up_down = None
 if difference > 0:
     up_down = "🔺"
@@ -50,34 +55,35 @@ else:
 
 
 diff_per = round((difference/float(yesterday_closing_stock))*100)
+print(diff_per)
+diff_per = 7
 if abs(diff_per)>5:
-    print("get news")
+    ## STEP 2: Use https://newsapi.org
+    # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
 
-## STEP 2: Use https://newsapi.org
-# Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
+    news_url = "https://newsapi.org/v2/everything"
+    parameter_news = {
+        "q": "Tesla Inc",
+        "from": f"{now.date()}&",
+        # "sortBy":"popularity",
+        "apiKey": news_api,
+        "language": "en",
+        # "sources":10,
+        # "totalResults":2,
+        # "pageSize":6,
+        # "page":1,
+    }
 
-news_url = "https://newsapi.org/v2/everything"
-parameter_news = {
-    "q": "Tesla Inc",
-    "from": f"{now.date()}&",
-    # "sortBy":"popularity",
-    "apiKey":news_api,
-    "language":"en",
-    # "sources":10,
-    # "totalResults":2,
-    # "pageSize":6,
-    # "page":1,
-}
-
-response = requests.get(url = news_url, params=parameter_news)
-response.raise_for_status()
-# print(response.json())
-data = response.json()
-# print(data)
-print(data["articles"])
-articles = data["articles"][0:3]
-random_article = random.choice(articles)
-sms = f"TSLA:{up_down}{diff_per}\nHeadline: {random_article["title"]}\nBrief: {random_article["description"]}"
+    response = requests.get(url=news_url, params=parameter_news)
+    response.raise_for_status()
+    # print(response.json())
+    data = response.json()
+    # print(data)
+    print(data["articles"])
+    articles = data["articles"][0:3]
+    for article in articles:
+        sms = f"TSLA:{up_down}{diff_per}\nHeadline: {article["title"]}\nBrief: {article["description"]}"
+        print(sms)
 
 
 ## STEP 3: Use https://www.twilio.com
@@ -94,7 +100,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
     to=my_number,
     from_=sender_number,
-    body = sms,
+    # body = sms, #cant send custom sms anymore so wont work
     content_sid="HXfe5ab5f00277942d4d4200328b4d403c",
 )
 
