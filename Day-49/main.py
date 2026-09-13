@@ -5,6 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 import os
 from dotenv import load_dotenv
 
@@ -25,29 +27,27 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.get(URL)
 driver.maximize_window()
 
+
 login_button = driver.find_element(By.ID, value="login-button")
 login_button.click()
-
-email_input = driver.find_element(By.XPATH, value='/html/body/div/main/div/form/div[1]/input')
+email_input = WebDriverWait(driver,2).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/main/div/form/div[1]/input')))
+# email_input = driver.find_element(By.XPATH, value='/html/body/div/main/div/form/div[1]/input')
 email_input.send_keys(EMAIL)
 
-password_input = driver.find_element(By.XPATH, value='/html/body/div/main/div/form/div[2]/input')
+password_input = WebDriverWait(driver,2).until(EC.presence_of_element_located((By.XPATH,'/html/body/div/main/div/form/div[2]/input')))
+# password_input = driver.find_element(By.XPATH, value='/html/body/div/main/div/form/div[2]/input')
 password_input.send_keys(PASSWORD)
+
 
 submit_button = driver.find_element(By.XPATH,value = '/html/body/div/main/div/form/button')
 submit_button.click()
 
-class_schedule = driver.find_elements(By.XPATH, value="/html/body/div/main/div")
-for classes in c    
-
-# # Wait up to 10 seconds for the element to load
-# wait = WebDriverWait(driver, 10)
-# booked_date = wait.until(
-#     EC.presence_of_element_located((By.ID, "day-title-tue,-sep-15"))
-# )
-# print(booked_date.text)
-#
+booked_date = WebDriverWait(driver,2).until(EC.presence_of_element_located((By.XPATH,'/html/body/div/main/div/div[4]/h2')))
+book_button =  WebDriverWait(driver,2).until(EC.presence_of_element_located((By.XPATH,'/html/body/div/main/div/div[4]/div[5]/div/div[2]/button')))
+if book_button.text == 'Book Class':
+    book_button.click()
+    print(f"Booked spin class for {booked_date.text} at 6:00 pm")
 
 
 
-# driver.close()
+
