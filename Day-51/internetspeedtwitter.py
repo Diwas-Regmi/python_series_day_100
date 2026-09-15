@@ -7,12 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 load_dotenv()
 
-EMAIL = os.environ['Y_EMAIL']
-PASSWORD = os.environ['Y_PASSWORD']
-URL = os.environ['Y_LOGIN_URL']
-PROMISED_UP = os.environ['PROMISED_UP']
-PROMISED_DOWN = os.environ['PROMISED_DOWN']
-
 
 class InternetSpeedTwitterBot:
     def __init__(self, url, password, email,down, up):
@@ -76,8 +70,7 @@ class InternetSpeedTwitterBot:
 
         print("Tweet posted successfully!")
 
-internet = InternetSpeedTwitterBot(URL,PASSWORD,EMAIL,PROMISED_DOWN,PROMISED_UP)
-internet.get_internet_speed()
+
 
 
 

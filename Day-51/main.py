@@ -11,3 +11,4 @@ PROMISED_UP = os.environ['PROMISED_UP']
 PROMISED_DOWN = os.environ['PROMISED_DOWN']
 
 internet = InternetSpeedTwitterBot(URL,PASSWORD,EMAIL,PROMISED_DOWN,PROMISED_UP)
+internet.get_internet_speed()
