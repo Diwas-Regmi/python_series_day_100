@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="title"><h1>My Blog</h1></div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ all_posts[0]["title"] }}</h2>
+            <p class="text">{{ all_posts[0]["subtitle"] }}</p>
+            <a href="{{ url_for('get_post', num=all_posts[0]['id']) }}">Read</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ all_posts[1]["title"] }}</h2>
+            <p class="text"> {{all_posts[1]["subtitle"]}} </p>
+            <a href="{{ url_for('get_post', num=all_posts[1]['id']) }}">Read</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ all_posts[2]["title"] }}</h2>
+            <p class="text"> {{all_posts[2]["subtitle"]}} </p>
+            <a href="{{ url_for('get_post', num=all_posts[2]['id']) }}">Read</a>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <p>Made with ♥️ in London.</p>
+</footer>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blogs of mine</title>
+</head>
+<body>
+  {% for blogs in posts: %}
+    <ul>
+        <li>
+        <h1>{{ blogs["title"] }}</h1>
+        <h2>{{blogs["subtitle"]}}</h2>
+        <h3><p>{{blogs["body"]}}</p></h3>
+        </li>
+    </ul>
+  <hr>
+
+  {% endfor %}
+</body>
+</html>
