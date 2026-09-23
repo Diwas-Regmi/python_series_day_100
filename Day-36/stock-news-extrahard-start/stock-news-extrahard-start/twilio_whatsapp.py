@@ -21,3 +21,19 @@
 #
 # print(message.status)
 #
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        listed_x = [letter for letter in str(x)]
+        reversed_x = [listed_x[i] for i in range(len(listed_x) - 1, -1, -1)]
+        transformed_x = "".join(listed_x)
+        transformed_reversed_x = "".join(reversed_x)
+        print(listed_x)
+        print(reversed_x)
+        print(transformed_x)
+        print(transformed_reversed_x)
+        if transformed_x == transformed_reversed_x:
+            return True
+        else:
+            return False
+solution = Solution()
+print(solution.isPalindrome(121))

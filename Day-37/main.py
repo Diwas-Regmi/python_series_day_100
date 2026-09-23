@@ -29,7 +29,7 @@ user_params = {
 response = requests.post(url=pixela_endpoint,json=user_params)
 print(response.text)
 
-2. adding graphs and giving it id name and units
+# 2. adding graphs and giving it id name and units
 graph_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs"
 graph_config = {
     "id":GRAPH_ID,

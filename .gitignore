@@ -1,0 +1,4 @@
+.idea/
+**/chrome_profile/
+*.zip
+*.env
