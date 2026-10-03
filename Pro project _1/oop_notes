@@ -1,0 +1,243 @@
+Section Notes
+Classes in Python:
+
+Classes are a collection of objects.
+
+They not only help us categorise objects, but also allow us to create objects. Classes are like blueprints for creating objects.
+
+For example, if we want to save products, we can create a class called Product:
+
+class Product:
+    # Now we need some attributes to define the class.
+    # These are called class attributes.
+    # Class attributes remain the same for every object.
+    quantity = 200
+
+# We can create an object out of the class, like this:
+# Creating a product1 object from the Product class:
+product1 = Product()
+# Now product1 is an object. Let's print it:
+print(product1)
+# When we run this, we get the product object. Instead of printing the object itself, we can print one of its attributes:
+# Let's print quantity:
+print(product1.quantity)
+# Here we have created a class, created a class attribute, and printed it. The class attribute gets assigned to all objects that we create from that class.
+# Let's create another product:
+product2 = Product()
+print(product2.quantity)
+# It has the same quantity. But what about properties like price, product name, etc.? We want different names and prices for different products.
+# In that case, we need to use instance attributes, not class attributes.
+
+
+Instance attributes & constructor:
+
+Instance attributes cannot be created directly inside a class because the value of that attribute gets assigned to all objects which are created from that class.
+
+To define instance attributes, we need to use a constructor.
+
+So, what is a constructor?
+
+A constructor is a method that is automatically executed when we create an object of that class. It is like a function definition.
+
+Here's an example of how to create a constructor:
+
+class Product:
+    quantity = 200
+
+    # We will learn about self later. Self means a reference to that particular
+    # object itself.
+    # __ in Python means that the function is created for internal use
+    # and should not be called directly by users.
+    # It is a convention used to indicate that the function is private.
+    # Pass instance attributes here.
+    # We pass name as a parameter because when we create an object, we have to
+    # pass in the name argument.
+    def __init__(self, name, price):
+        # Let's create instance attributes here.
+        # The following line sets this object's name to the name argument
+        # that is passed.
+        self.name = name
+        # We can add multiple instance attributes to a class.
+        # Let's also add price as well.
+        self.price = price
+
+# Now let's try creating an object out of it.
+#product1 = Product()
+#print(product1)
+# This will give an error because we have not passed the arguments for the
+# name and price parameters.
+# which means when we create an object, we need to also pass in the name
+# and the price of that object.
+
+# Let's do that now.
+product2 = Product("Phone", 500)
+print(product2.name)
+print(product2.price)
+
+
+Methods:
+
+Now that we have a product, let's say we want to apply a summer discount to the prices.
+
+To implement this, we need to write code. If we were using a function-based approach, we would have created a function and written the logic inside it to calculate and return a discount.
+
+But in OOP, we create methods instead of functions. Methods are similar to functions, but they are declared inside a class because they belong to that class.
+
+These methods are also called instance methods because they can modify the attributes of the object.
+
+For example, as the discount method only has to work with products, it makes sense to add it inside the Product class. Let's create that discount method here:
+
+class Product:
+    quantity = 200
+
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def summer_discount(self, discount_percent):
+        self.price = self.price - (self.price * discount_percent/100)
+
+# create an object of Product
+product1 = Product("Laptop", 500)
+print(product1.price)
+
+# call the method on the object here
+product1.summer_discount(10)
+print(product1.price)
+This code creates a Product object and sets its initial price to 500. We then call the summer_discount() method on the product1 object, passing in a 10% discount. The method calculates the new price based on the discount and updates the price attribute of the object. Finally, we print the new price to confirm that the discount has been applied.
+
+
+
+Polymorphism:
+
+Polymorphism simply means the ability to take multiple forms. A real-world example of polymorphism would be a person.
+
+When a person is at school, they are a student.
+
+When a person is at work, they are an employee, and at home, they are a family member.
+
+This means that a person's role changes depending on the context.
+
+
+
+Python is polymorphic, meaning that a single operator, function, or class method in Python can have multiple uses.
+
+For example, the + operator can be used to add two numbers as well as concatenate two strings:
+
+print(10+20)
+print('Hello'+'world')
+This is called operator polymorphism in Python.
+
+
+
+Similarly, we also have function polymorphism.
+
+Some functions in Python are polymorphic, meaning their behavior changes depending on the data we pass to them.
+
+For example, the len function can count the number of characters in a string or the number of items in a list:
+
+print(len('HelloWorld'))
+print(len(['Apple','Mango','Banana']))
+Similar to this, we have polymorphism in OOP as well.
+
+
+
+Method overriding:
+
+In general terms, overriding means to use your authority to reject somebody’s decision or order, to be more important than something.
+
+For example, a manager can fire an employee, but a CEO can reject this decision.
+
+Method overriding is a type of polymorphism in Python.
+
+To understand this, let’s take an example, we can define a Food class with a method called type(). Then, we can define another class called Fruit that inherits from the Food class and also has a method called type().
+
+If we create an object of the Fruit class and call the type() method, it will override the type() method of the Food class.
+
+Here's the example code:
+
+class Food:
+    def type(self):
+        print("Food")
+
+class Fruit(Food):
+    def type(self):
+        print('Fruit')
+
+burger = Food()
+print(burger.type())
+# this invokes the method in the Food class
+
+apple = Fruit()
+print(apple.type())
+# The method in the Fruit class overrides the method in the Food class.
+
+
+Operator overloading:
+
+Operator overloading allows you to overload operators like + and - and change their behaviour.
+
+For example, we can use + to perform addition of two numbers.
+
+Let’s say we want to overload the + operator:
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    # To overload the + operator, we use the __add__ method
+    # To perform overloading, Python provides a special method
+    # To overload the + operator, we use the magic method __add__
+
+    # We want the plus operator to perform addition of two Points/two objects
+    def __add__(self, other):
+        x = self.x + other.x
+        y = self.y + other.y
+        # Once we have the values of x and y we want to return them into a point
+        return Point(x, y)
+
+    def __str__(self):
+        return '({0}, {1})'.format(self.x, self.y)
+
+point1 = Point(1, 2)
+point2 = Point(3, 4)
+print(point1 + point2)
+Now the above code returns an object, so we need to define the format in which the result should be returned.
+
+
+
+To do this, we use a str method, which returns a human-readable or string representation of an object.
+
+Hence, we add this to the class:
+
+def __str__(self):
+        return '({0}, {1})'.format(self.x, self.y)
+
+
+Here's the entire code:
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    # To overload the + operator, we use the __add__ method
+    # To perform overloading, Python provides a special method
+    # To overload the + operator, we use the magic method __add__
+
+    # We want the plus operator to perform addition of two Points/two objects
+    def __add__(self, other):
+        x = self.x + other.x
+        y = self.y + other.y
+        # Once we have the values of x and y we want to return them into a point
+        return Point(x, y)
+
+    def __str__(self):
+        return '({0}, {1})'.format(self.x, self.y)
+
+point1 = Point(1, 2)
+point2 = Point(3, 4)
+print(point1 + point2)
+
+
